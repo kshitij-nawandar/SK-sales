@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.Header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color:black;
+    align-items: center;
+    /* margin: 0; */
+}
+.row1{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    /* font-family: 'Montserrat', serif,'Times New Roman', Times; */
+    font-family: "Copperplate Gothic Light",Copperplate,'Montserrat','Copperplate', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0%;
+}
+
+.row2{
+    background-color: black;
+    margin: 0%;
+    padding: 5px 20px;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+}
+.Buttons{
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-style: none; 
+    margin: 0%;      
+    /* padding: 5px 20px; */
+}
+.Button{
+    /* margin-right: 100px; */
+    background-color: black;
+    color: whitesmoke;
+    border-style: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+
+.Button:hover,
+.Button:active {
+  background-color:gray;
+  border-radius: 4px;
+  cursor:pointer;
+}
