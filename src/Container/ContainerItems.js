@@ -32,6 +32,17 @@ const ContainerItems = (props) => {
         )
         console.log(content)
     }
+    else if (props.label==='Home'){
+        content=(
+            <div id={props.label}>
+                <h2>{props.label}</h2>
+                <p>We started our journey for corporate gifting in the middle of June 2020 when Covid -19 was at its peak. </p>
+                <p>We started with an order for customized sanitization and safety kits for Glenmark Pharmaceuticals Ltd. which was our first big order. After that order, we didn’t want to stop.</p>     
+                <p>It became our objective to understand the requirements, themes and budgets of various divisions and suggest some unique and innovative inputs to the product and marketing managers and fulfil their requirements by providing them the most relevant and best quality products. </p>
+                <p>We wanted to continue our endeavour to pursue this and thus gradually started to provide our services to other pharma companies as well like Cipla Ltd., Cipla health, Shield Healthcare pvt. Ltd. and Mankind etc. </p>     
+            </div> 
+        )
+    } 
     else if (props.label==='Our clients')
     {
         const row_image={
